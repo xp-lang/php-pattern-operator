@@ -26,4 +26,15 @@ class PatternOperatorTest extends EmittingTest {
 
     Assert::equals($matches, $r);
   }
+
+  #[Test]
+  public function does_not_conflict_with_prefix_operator() {
+    $r= $this->run('class <T> {
+      public function run($input) {
+        return [~0, ~$input];
+      }
+    }', 1);
+
+    Assert::equals([-1, -2], $r);
+  }
 }
