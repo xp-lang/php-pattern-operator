@@ -8,11 +8,11 @@ Pattern operator for PHP
 [![Supports PHP 8.0+](https://raw.githubusercontent.com/xp-framework/web/master/static/php-8_0plus.svg)](http://php.net/)
 [![Latest Stable Version](https://poser.pugx.org/xp-lang/php-pattern-operator/version.png)](https://packagpatternt.org/packages/xp-lang/php-pattern-operator)
 
-Plugin for the [XP Compiler](https://github.com/xp-framework/compiler/) which adds an `~` operator to the PHP language.
+Plugin for the [XP Compiler](https://github.com/xp-framework/compiler/) which adds an `~` infix operator to the PHP language.
 
 Examples
 --------
-The infix pattern operator treats the following expression as a regular expression and returns the matches it generates:
+The pattern operator treats the following expression as a regular expression and returns the matches it generates:
 
 ```php
 if ($greeting ~ '/^H[ea]llo/') {
