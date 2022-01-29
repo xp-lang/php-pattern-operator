@@ -52,6 +52,7 @@ No further action is required.
 
 See also
 --------
+* https://github.com/xp-framework/compiler/issues/130 Motivation
 * https://www.perltutorial.org/perl-regular-expression/
 * https://stackoverflow.com/questions/19441521/bash-regex-operator
 * https://puppet.com/docs/puppet/latest/lang_expressions.html (`=~` and `!~`)
