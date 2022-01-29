@@ -16,6 +16,20 @@ class PatternOperatorTest extends EmittingTest {
     Assert::equals($matches, $r);
   }
 
+  #[Test, Values([['hallo', 'a'], ['HELLO', 'e'], ['test', null]])]
+  public function work_with_matches($input, $matched) {
+    $r= $this->run('class <T> {
+      public function run($input) {
+        if ($matches= $input ~ "/h([ea])llo/i") {
+          return strtolower($matches[1]);
+        }
+        return null;
+      }
+    }', $input);
+
+    Assert::equals($matched, $r);
+  }
+
   #[Test, Values([['Test', true], ['test', true], ['hello', false]])]
   public function cast_to_bool($input, $matches) {
     $r= $this->run('class <T> {
