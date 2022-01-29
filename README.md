@@ -35,3 +35,17 @@ if (preg_match($greeting, '/^H[ea]llo/', $matches)) {
   // Work with $matches
 }
 ```
+
+Installation
+------------
+After installing the XP Compiler into your project, also include this plugin.
+
+```bash
+$ composer require xp-framework/compiler
+# ...
+
+$ composer require xp-lang/php-pattern-operator
+# ...
+```
+
+No further action is required.
