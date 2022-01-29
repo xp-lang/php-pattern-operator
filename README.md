@@ -53,4 +53,5 @@ No further action is required.
 See also
 --------
 * https://www.perltutorial.org/perl-regular-expression/
+* https://github.com/kasei/SwiftRegex and https://github.com/johnno1962/SwiftRegex
 * https://externals.io/message/4825 (PHP internals discussion, 2003)
