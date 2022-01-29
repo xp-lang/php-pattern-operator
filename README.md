@@ -54,5 +54,6 @@ See also
 --------
 * https://www.perltutorial.org/perl-regular-expression/
 * https://stackoverflow.com/questions/19441521/bash-regex-operator
+* https://puppet.com/docs/puppet/latest/lang_expressions.html (`=~` and `!~`)
 * https://github.com/kasei/SwiftRegex and https://github.com/johnno1962/SwiftRegex
 * https://externals.io/message/4825 (PHP internals discussion, 2003)
